@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Detects changes in elements using JavaScript and Node.js. // Detecta mudanças em elementos usando JavaScript e Node.js",
   "main": "backend.js",
+  "type": "module",
   "scripts": {
     "start": "node backend.js",
     "dev": "nodemon backend.js"
