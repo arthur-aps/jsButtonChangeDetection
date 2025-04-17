@@ -1,4 +1,7 @@
+[def]: ./CHANGELOG.md
+
 ## *pt-BR:*
+Veja o changelog [aqui][def]
 ### JavaScript - Detector por ID de Mudanças no `href` de um Elemento em uma Página Web
 
 Eu precisava detectar a mudança de um botão numa página web, então fiz esse script pra isso.
@@ -46,6 +49,7 @@ Quando tudo estiver pronto, e seu servidor backend estiver rodando (se for utili
 que você quiser detectar mudanças, rodar e pronto.
 
 ## *en:*
+See the changelog [here][def]
 ### JavaScript - Web Page Element's `href` Change Detector by ID
 
 I needed to detect changes from a button in a web page, so I made this script to do that.
