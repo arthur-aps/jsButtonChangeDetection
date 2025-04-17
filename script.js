@@ -31,7 +31,7 @@ function verificacao() {
         `Mudança detectada no link: ${hrefAntigo} => ${href}\n` +
         `Change detected in the link: ${hrefAntigo} => ${href}`
       );
-      
+// /*
       mandarEmail(
         // Assunto // Subject
         `O link do elemento "${elementID}" mudou! / ` +
@@ -41,7 +41,7 @@ function verificacao() {
         `Link antigo: / Old link: "${hrefAntigo}\n"` +
         `Novo link: / New link: "${href}"`
       );
-
+// */
       alert("O link do elemento mudou!\nThe element's link changed!");
       hrefAntigo = href;
     }
@@ -51,7 +51,7 @@ function verificacao() {
         `Mudança detectada no texto: ${textoAntigo} => ${texto}\n` +
         `Change detected in the text: ${textoAntigo} => ${texto}`
       );
-      
+// /*     
       mandarEmail(
         // Assunto // Subject
         `O texto do elemento "${elementID}" mudou! / ` +
@@ -61,7 +61,7 @@ function verificacao() {
         `Texto antigo: / Old text: "${textoAntigo}"\n` +
         `Novo texto: / New text: "${texto}"`
       );
-
+// */
       alert("O texto do elemento mudou!\nThe element's text changed!");
       textoAntigo = texto;
     }
