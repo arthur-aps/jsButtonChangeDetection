@@ -1,0 +1,37 @@
+{
+  "name": "jsbuttonchangedetection",
+  "version": "1.1.0",
+  "description": "Detects changes in elements using JavaScript and Node.js. // Detecta mudanças em elementos usando JavaScript e Node.js",
+  "main": "backend.js",
+  "scripts": {
+    "start": "node backend.js",
+    "dev": "nodemon backend.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthur-aps/jsButtonChangeDetection.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "express",
+    "cors",
+    "nodemailer",
+    "elementID",
+    "detection"
+  ],
+  "author": "Arthur APS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arthur-aps/jsButtonChangeDetection/issues"
+  },
+  "homepage": "https://github.com/arthur-aps/jsButtonChangeDetection#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "nodemailer": "^6.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

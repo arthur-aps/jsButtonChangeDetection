@@ -20,7 +20,7 @@ const app = express();
  * script can access it.
  */
 const emailSender = 'sender@gmail.com';
-const pass = 'senderAppPass';
+const pass = 'sender app pass example';
 
 app.use(express.json());
 app.use(cors());
